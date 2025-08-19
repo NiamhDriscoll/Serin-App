@@ -24,5 +24,9 @@ namespace Serin_App
         {
             InitializeComponent();
         }
+        private void Click1(object sender, RoutedEventArgs e)
+        {
+            NavigationService?.Navigate(new Page2());
+        }
     }
 }

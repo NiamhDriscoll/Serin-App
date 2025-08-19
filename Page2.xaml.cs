@@ -16,15 +16,17 @@ using System.Windows.Shapes;
 namespace Serin_App
 {
     /// <summary>
-    /// Interaction logic for Window2.xaml
+    /// Interaction logic for Page2.xaml
     /// </summary>
-    public partial class Window2 : Window
+    public partial class Page2 : Page
     {
-        public Window2()
+        public Page2()
         {
             InitializeComponent();
-            Main.Navigate(new Page1());
         }
-       
+        private void ClickUnity(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hello");
+        }
     }
 }

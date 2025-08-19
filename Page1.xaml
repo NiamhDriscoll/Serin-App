@@ -5,12 +5,12 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Serin_App"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      Height="800" Width="1000"
       Title="Page1">
 
     <Grid>
         <TextBlock FontSize="40" > <Run Text="Welcome to Serin"/><LineBreak/><Run/></TextBlock>
-
-        <Button Content="Hello" FontSize="30"  Height="50" Background="#FF424242" Margin="10,200,679,200"/>
+        <TextBlock FontSize="25" ><Run/><LineBreak/><Run/><LineBreak/><Run Text="Serin app v0.1"/><LineBreak/><Run/></TextBlock>
+        <Button Content="Hello" FontSize="30"  Height="50" Background="#FF424242" Margin="26,210,834,540" Click="Click1"/>
     </Grid>
 </Page>
