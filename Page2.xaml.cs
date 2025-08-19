@@ -28,5 +28,9 @@ namespace Serin_App
         {
             MessageBox.Show("hello");
         }
+        private void ClickSerin(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("hello");
+        }
     }
 }

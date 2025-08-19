@@ -11,6 +11,7 @@
     <Grid>
         <TextBlock FontSize="40" > <Run Text="Welcome to Serin"/><LineBreak/><Run/></TextBlock>
         <TextBlock FontSize="25" ><Run/><LineBreak/><Run/><LineBreak/><Run Text="Serin app v0.1"/><LineBreak/><Run/></TextBlock>
-        <Button Content="Hello" FontSize="30"  Height="50" Background="#FF424242" Margin="26,210,834,540" Click="Click1"/>
+        <Button Content="New Project" FontSize="30"  Height="50" Background="#FF424242" Margin="26,210,799,540" Click="Click1"/>
+        <Image Source="/Assets/Serin.png" Opacity="0.1" Margin="219,0,0,0"></Image>
     </Grid>
 </Page>

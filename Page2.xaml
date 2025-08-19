@@ -11,5 +11,6 @@
     <Grid>
         <TextBlock FontSize="40" > <Run Text="New project"/><LineBreak/><Run/></TextBlock>
         <Button Content="New Unity project" FontSize="30" Background="#FF424242" Margin="10,140,728,565" Click="ClickUnity"/>
+        <Button Content="New Serin project" FontSize="30" Background="#FF424242" Margin="10,271,728,434" Click="ClickSerin"/>
     </Grid>
 </Page>
